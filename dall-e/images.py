@@ -12,7 +12,7 @@ except KeyError:
     sys.exit(1)
 
 # Check if a prompt was provided as a command-line argument
-if len(sys.argv) = 2:
+if len(sys.argv) == 2:
     print(f"Usage: {sys.argv[0]} 'Your prompt here'")
     sys.exit(1)
 
